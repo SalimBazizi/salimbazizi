@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #131313 !important;
+}
+
+.main-title {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fff !important;
+}
+
+.sub-title {
+  font-size: 0.4em !important;
+  font-weight: 700;
+  letter-spacing: 4px;
+  background: linear-gradient(104deg, rgba(255, 67, 67, 1) 14%, rgba(254, 138, 23, 1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#projets {
+  background-color: #131313 !important;
+}
+
+.learnMore {
+  color: #ff4343 !important;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+}
+.learnMore:hover {
+  color: #fe8a17 !important;
+}
+
+.arrow-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.learnMore:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+.hero-text {
+  position: relative;
+}
+
+.icon3dimg {
+  position: absolute;
+  top: 12%;
+  left: 31%;
+  z-index: -1;
+}
+
+.graphique {
+  z-index: 1;
+}
+
+#portfolio {
+  margin-top: 8rem;
+}
+
+.heading {
+  color: #fff !important;
+  font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-top: 10rem;
+}
+
+.sub-heading {
+  background: linear-gradient(104deg, rgba(255, 67, 67, 1) 14%, rgba(254, 138, 23, 1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.future-dev {
+  font-weight: 800;
+}
+
+.portfolio-item {
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.about-heading {
+  margin: 3rem 0;
+}
+
+.about-subheading {
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.about-paragraph {
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+.services-text-intro {
+  width: 60%;
+  margin-bottom: 4rem !important;
+  color: #6f6f6f;
+}
+
+.service-svg {
+  display: flex;
+  justify-content: center;
+}
+
+.circular-progress-bar {
+  width: 80%;
+  transition: all 0.3s ease-in-out;
+}
+
+.circular-progress-bar:hover {
+  scale: 1.1;
+  transform: rotate(360deg);
+}
+
+.service-paragraph {
+  color: #6f6f6f;
+  line-height: 1.5;
+}
+
+.info-wrapper ion-icon {
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+}
+
+.form-btn {
+  background: linear-gradient(104deg, rgba(255, 67, 67, 1) 14%, rgba(254, 138, 23, 1) 100%);
+  background-size: 200%;
+  background-position: left;
+  color: #fff !important;
+  border: none;
+  padding: 0.85rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.form-btn:hover {
+  background-size: 100%;
+  background-position: right;
+}
+
+.pre-footer {
+  margin-top: 6rem;
+  height: 14rem;
+  background: linear-gradient(104deg, rgba(255, 67, 67, 1) 14%, rgba(254, 138, 23, 1) 100%);
+}
+
+.pre-footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: 800;
+}
+
+.pre-footer-btn {
+  color: #fff !important;
+  background-color: #131313;
+  border: none;
+  padding: 0.85rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.pre-footer-btn:hover {
+  background-color: #fff;
+  color: #ff4343 !important;
+}
+
+.footer-wrapper {
+  color: #fff;
+  height: 20rem;
+}
+
+.footer-icon {
+  font-size: 1.6rem;
+  margin: 0 1rem;
+  color: #fff;
+}
