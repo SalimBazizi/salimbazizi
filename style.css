@@ -1,6 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif !important;
   background-color: #131313 !important;
+  background: fixed no-repeat url(imgs/Assets/Asset\ 23.svg);
+  background-size: cover;
+  /* z-index: -1; */
 }
 
 .main-title {
@@ -70,7 +73,7 @@ body {
 .sub-heading {
   background: linear-gradient(104deg, rgba(255, 67, 67, 1) 14%, rgba(254, 138, 23, 1) 100%);
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .future-dev {
@@ -109,6 +112,10 @@ body {
   color: #6f6f6f;
 }
 
+.self-intro {
+  line-height: 1.5;
+}
+
 .service-svg {
   display: flex;
   justify-content: center;
@@ -116,6 +123,7 @@ body {
 
 .circular-progress-bar {
   width: 80%;
+  filter: drop-shadow(13px 9px 13px #101010);
   transition: all 0.3s ease-in-out;
 }
 
@@ -148,6 +156,8 @@ body {
 }
 .form-btn:hover {
   background-size: 100%;
+  padding-right: 3.2rem;
+  border-top-right-radius: 0;
   background-position: right;
 }
 
