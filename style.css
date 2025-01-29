@@ -49,7 +49,7 @@ body {
 
 .icon3dimg {
   position: absolute;
-  top: 12%;
+  top: 0%;
   left: 31%;
   z-index: -1;
 }
@@ -206,7 +206,6 @@ body {
   font-size: 1.6rem;
   margin: 0 1rem;
   color: #fff;
-  position: relative;
   transition: all 0.3s ease-in-out;
 }
 .footer-icon:hover {
